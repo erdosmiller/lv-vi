@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-22 07:17:59" Modified_Date="2017-03-14 14:30:32" Creator="David Taylor" Comments="" ID="a4f41e01aa86129bd8081f5404c2aa6e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 07:17:59" Modified_Date="2017-06-22 23:50:30" Creator="David Taylor" Comments="" ID="c65fde5bf89f10ba1039ef4854febc26">
   <Library_General_Settings>
     <Package_File_Name>lv_vi</Package_File_Name>
-    <Library_Version>0.0.0.6</Library_Version>
+    <Library_Version>0.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
-    <Library_Output_Folder>..\..\builds\lv-vi</Library_Output_Folder>
+    <Library_Output_Folder>..\builds</Library_Output_Folder>
     <Company_Name>Erdos Miller</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
@@ -31,7 +31,7 @@
       <Description>LV-VI is an open source LabVIEW library for managing asynchronously launched VI references in a way that their hierarchies do not go idle.</Description>
       <Copyright/>
       <Packager/>
-      <URL/>
+      <URL>https://github.com/erdosmiller/lv-vi</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
@@ -88,6 +88,11 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -224,7 +229,7 @@
         <Path>..\source\Check Out Ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15C0446631EABCC3E774A0ED4E804D65</GUID>
+      <GUID>1011F0C2D07DFADDDA9B7F2899C3B7E7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
